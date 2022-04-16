@@ -850,7 +850,7 @@ body {
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   background-color: var(--accent-color);
   border: var(--accent-color);
-  background-image: url("/img/icon.svg");
+  background-image: url(/img/icon.svg);
 }
 
 .visually-hidden {
