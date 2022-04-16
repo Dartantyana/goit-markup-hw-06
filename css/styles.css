@@ -755,8 +755,8 @@ body {
 
 .image-wrapper {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   color: rgba(33, 33, 33, 1);
   top: 50%;
   left: 12px;
@@ -809,6 +809,16 @@ body {
   font-size: 14px;
   display: block;
   align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
 }
 
 .contact-form-checkbox-label::before {
@@ -826,7 +836,7 @@ body {
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   background-color: var(--accent-color);
   border: var(--accent-color);
-  background-image: url("/img/icon.svg");
+  background-image: url("./img/icon.svg");
 }
 
 .visually-hidden {
@@ -859,7 +869,7 @@ body {
   padding: 10px 32px;
 }
 
-.form-title {
+.modal-form-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
