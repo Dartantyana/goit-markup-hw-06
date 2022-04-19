@@ -575,11 +575,16 @@ body {
 /* Footer section */
 .footer-page {
   display: flex;
-  background-color: var(--backgroung-color-dark-theme);
+ 
   height: 252px;
+
   padding-top: 64px;
   padding-bottom: 56px;
   justify-content: space-between;
+
+}
+.footer-page-section {
+  background-color: var(--backgroung-color-dark-theme);
 }
 
 .footer-link {
@@ -616,6 +621,7 @@ body {
 
 .footer-container {
   display: block;
+ 
 }
 .footer-contacts-item {
   width: 44px;
